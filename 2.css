@@ -1,0 +1,36 @@
+nav {
+  background: #ca6363;
+  padding: 10px 0;
+}
+
+nav ul {
+  display: flex;
+  
+ 
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 20px;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  color: #d31f1f;
+}
+
+section ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+section li {
+  background: #cbd15b;
+  padding: 10px;
+  border-radius: 6px;
+}
